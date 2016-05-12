@@ -1,4 +1,4 @@
-# hbs-beautify package
+# hbs-beautify
 
 Beautify Handlebars code and comments. Supports Handlebar tags within comments. Use {{!--...--}}
 
