@@ -2,12 +2,12 @@
   "name": "hbs-beautify",
   "main": "./lib/hbs-beautify",
   "version": "0.0.0",
-  "description": "Beautify Handlebars file. Supports Handlebar tags within comments. Use {{!--...--}}",
+  "description": "Beautify Handlebars code and comments. Supports Handlebar tags within comments. Use {{!--...--}}",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "hbs-beautify:beautify"
   },
-  "repository": "https://github.com/atom/hbs-beautify",
+  "repository": "https://github.com/jaichandra/hbs-beautify",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
