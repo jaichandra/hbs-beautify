@@ -1,0 +1,20 @@
+{{!--
+/**
+ * File upload component
+ *
+ * @param {string} label Button label
+ *
+ * @example
+ * {{> common/btn-fileupload label="ATTACHMENT"}}
+ */
+--}}
+<span class="file-uploader">
+    <span class="hide-widget">
+        <input type="file" name="files[]" multiple="">
+    </span>
+    {{#if label}}
+        {{> common/btn-add label=label}}
+    {{else}}
+        {{> common/btn-add label="ATTACHMENT"}}
+    {{/if}}
+</span>
